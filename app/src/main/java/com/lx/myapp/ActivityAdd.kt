@@ -41,7 +41,7 @@ class ActivityAdd : AppCompatActivity() {
                     //화면에 보여주기 귀찮음^^
                     binding.imageOutput.setImageBitmap(bitmap)
 
-                    //saveFile()
+                    //saveFile() 이거는 안쓰는 코드입니다
                 }
 
                 RESULT_CANCELED -> {
