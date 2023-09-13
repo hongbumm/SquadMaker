@@ -45,7 +45,7 @@ class ActivityAdd : AppCompatActivity() {
                     // 이거는 처음 보는거지 형? 230913 15:37
                     // 왼쪽에 있는 내용도 git 과 관련된 내용이구나!
                 }
-
+//주성이는 보거라 아이폰15pro ㄱ ㄱ ㄱ ㄱ ㄱ ㄱ ㄱ
                 RESULT_CANCELED -> {
                     showToast("사진 찍기 취소 귀찮음.")
                 }
