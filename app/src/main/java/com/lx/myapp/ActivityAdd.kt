@@ -38,7 +38,7 @@ class ActivityAdd : AppCompatActivity() {
                 RESULT_OK -> {
                     bitmap = it.data?.extras?.get("data") as Bitmap
 
-                    //화면에 보여주기
+                    //화면에 보여주기 귀찮음^^
                     binding.imageOutput.setImageBitmap(bitmap)
 
                     //saveFile()
