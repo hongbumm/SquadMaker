@@ -45,7 +45,7 @@ class ActivityAdd : AppCompatActivity() {
                 }
 
                 RESULT_CANCELED -> {
-                    showToast("사진 찍기 취소")
+                    showToast("사진 찍기 취소 귀찮음.")
                 }
             }
         }
