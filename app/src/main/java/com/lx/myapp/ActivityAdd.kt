@@ -43,6 +43,7 @@ class ActivityAdd : AppCompatActivity() {
 
                     //saveFile() 이거는 안쓰는 코드입니다
                     // 이거는 처음 보는거지 형? 230913 15:37
+                    // 왼쪽에 있는 내용도 git 과 관련된 내용이구나!
                 }
 
                 RESULT_CANCELED -> {
