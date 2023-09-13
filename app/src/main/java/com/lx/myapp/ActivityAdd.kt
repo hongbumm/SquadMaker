@@ -42,6 +42,7 @@ class ActivityAdd : AppCompatActivity() {
                     binding.imageOutput.setImageBitmap(bitmap)
 
                     //saveFile() 이거는 안쓰는 코드입니다
+                    // 이거는 처음 보는거지 형? 230913 15:37
                 }
 
                 RESULT_CANCELED -> {
