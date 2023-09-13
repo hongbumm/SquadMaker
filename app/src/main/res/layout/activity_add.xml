@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EDF1D6"
+    tools:context=".ActivityAdd">
+
+    <EditText
+        android:id="@+id/input1"
+        android:layout_width="211dp"
+        android:layout_height="51dp"
+        android:layout_marginBottom="24dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="이름"
+        app:layout_constraintBottom_toTopOf="@+id/input2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/input2"
+        android:layout_width="209dp"
+        android:layout_height="56dp"
+        android:layout_marginBottom="12dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="포지션"
+        app:layout_constraintBottom_toTopOf="@+id/insertButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageOutput"
+        android:layout_width="248dp"
+        android:layout_height="286dp"
+        android:layout_marginTop="44dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/default_player" />
+
+    <Button
+        android:id="@+id/insertButton"
+        android:layout_width="205dp"
+        android:layout_height="101dp"
+        android:layout_marginBottom="20dp"
+        android:text="저장"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/buttonBack"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/captureButton"
+        android:layout_width="170dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="12dp"
+        android:text="사진 찍기"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageOutput" />
+
+    <Button
+        android:id="@+id/buttonBack"
+        android:layout_width="290dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="24dp"
+        android:text="취소"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
